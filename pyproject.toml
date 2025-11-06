@@ -17,8 +17,8 @@ classifiers = [
 ]
 dependencies = [
     "numpy ~= 1.26.4",
-    "matplotlib ~= 3.8.4",
-    "scikit-image ~= 0.23.2",
+    "matplotlib >= 3.8.4,< 3.11.0",
+    "scikit-image >= 0.23.2,< 0.26.0",
     "fdsreader ~= 1.11.5"
 ]
 
